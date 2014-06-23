@@ -1,0 +1,21 @@
+/* defaults */
+
+/* UI */
+
+.s2-splash {
+    width: 320px;
+    padding: 15px;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+@media(max-width: 390px){
+    .s2-splash {
+        width: 100%;
+    }
+}
